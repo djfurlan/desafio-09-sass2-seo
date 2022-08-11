@@ -20,7 +20,7 @@
     h1 {
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-size: 150%;
-        color:$color-font;
+        color: $color-font;
     }
 
     nav {
@@ -31,16 +31,17 @@
             display: flex;
             justify-content: space-around;
             align-items: center;
-            
+
             li {
-                &:hover{
-                        text-decoration: underline wavy;       
+                &:hover {
+                    text-decoration: underline wavy;
                 }
 
-                a{
-                  color:$color-font;
-                  font-size: 1.1rem; 
+                a {
+                      color:$color-font;
+                    font-size: 1.1rem;
                 }
+
             }
         }
     }
