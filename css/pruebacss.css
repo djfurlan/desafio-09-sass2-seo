@@ -247,13 +247,19 @@
     .main-Contactenos .form-Consulta h4 {
       font-size: 25px;
       margin: 20px 0; }
-    .main-Contactenos .form-Consulta .controles {
+    .main-Contactenos .form-Consulta .controles, .main-Contactenos .form-Consulta .ctrl-1, .main-Contactenos .form-Consulta .ctrl-2, .main-Contactenos .form-Consulta .ctrl-3 {
       width: 93%;
       padding: 10px;
       margin-bottom: 10px;
       border-radius: 8px;
-      border: solid 2px blue;
-      font-size: 15px; }
+      font-size: 15px;
+      border: solid 2px green; }
+    .main-Contactenos .form-Consulta .ctrl-1 {
+      border: solid 2px blue; }
+    .main-Contactenos .form-Consulta .ctrl-2 {
+      border: solid 2px red; }
+    .main-Contactenos .form-Consulta .ctrl-3 {
+      border: solid 2px black; }
     .main-Contactenos .form-Consulta .boton {
       width: 100%;
       padding: 10px;

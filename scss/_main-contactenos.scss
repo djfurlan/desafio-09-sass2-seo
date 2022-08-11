@@ -29,9 +29,25 @@
                                         padding: 10px;
                                         margin-bottom: 10px;
                                         border-radius: 8px;
-                                        border: solid 2px blue;
                                         font-size: 15px;
+                                        border: solid 2px green;
+                                                                            
                                     }
+
+                                    .ctrl-1 {
+                                       @extend .controles;
+                                        border: solid 2px blue;
+                                    }
+
+                                    .ctrl-2 {
+                                        @extend .controles;
+                                         border: solid 2px red;
+                                     }
+
+                                     .ctrl-3 {
+                                        @extend .controles;
+                                         border: solid 2px black;
+                                     }
 
                                     .boton {
                                         width: 100%;
