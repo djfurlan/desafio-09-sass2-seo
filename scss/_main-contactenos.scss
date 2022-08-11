@@ -23,10 +23,11 @@
                                         font-size: 25px;
                                          margin: 20px 0; 
                                     }
-
+                                                                    
                                     .controles {
-                                        width: 93%;
-                                        padding: 10px;
+                                        // width: 93%;
+                                        // padding: 10px;
+                                        @include size (93%,10px);
                                         margin-bottom: 10px;
                                         border-radius: 8px;
                                         font-size: 15px;
